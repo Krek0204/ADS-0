@@ -13,6 +13,6 @@ int gcd(int a, int b) {
         x = i;
       }
     }
-    return x;
   }
+  return x;
 }
