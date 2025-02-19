@@ -10,9 +10,9 @@ int gcd(int a, int b) {
   } else {
     for (int i = 1; i <= b; i++) {
       if ((a % i == 0) && (b % i == 0)) {
-        x = i;
+          x = i;
+        }
       }
     }
+    return x;
   }
-  return x;
-}
